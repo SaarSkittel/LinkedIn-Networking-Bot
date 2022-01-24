@@ -1,4 +1,3 @@
-from sqlite3 import connect
 from selenium import webdriver
 import time
 import os
@@ -52,4 +51,4 @@ for i in range(pages):
 # Create an environment in Anaconda command using: conda create --name ENV_NAME
 # Activate environment command using: activate ENV_NAME
 # Make sure to install selenium on the enviroment using (runs only once): pip install selenium
-# After that you can run the command: python NetworkingBot.py
+# After that navigate to the project directory and then run the project using the command: python NetworkingBot.py
